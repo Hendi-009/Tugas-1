@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color:#283618 ;
+    height: 80px;
+    color: #FFEBAD;
+    width: auto;
+}
+.logoheader{
+    width: 50px;
+    height: 50px;
+    padding: 15px 30px;
+    float: left;
+}
+.textheader{
+    font-size: 20px;
+    float: left;
+    padding: 25px 0px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+}
+.menuheader1, .menuheader2, .menuheader3 {
+    list-style: none;
+    float: right;
+    padding: 33px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+
+.main{
+    background-color: #606c38;
+    height: 200px;
+    padding: 100px 75px;
+}
+.contentmain h1{
+    color: #FFEBAD;
+    font-size:100px;
+}
+.contentmain h2{
+    color: #FFEBAD;
+    font-size:60px;
+}
+
+.footer{
+    background-color: #fefae0;
+    height: 80px;
+    padding: 30px;
+    color: black;
+}
+.logofooter{
+    font-size: 30px;
+    float: left;
+}
+.infofooter h2{
+    font-family: 'sans-serif';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+.infofooter ul{
+    float: right;
+    list-style: none;
+    font-family: 'sans-serif';
+}
