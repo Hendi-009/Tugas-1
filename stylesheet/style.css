@@ -22,7 +22,7 @@
     font-family: 'Segoe UI';
     font-weight: 700;
 }
-.menuheader1, .menuheader2, .menuheader3 {
+.menuheader1, .menuheader2, .menuheader3, .menuheader4{
     list-style: none;
     float: right;
     padding: 33px 20px;
@@ -51,22 +51,58 @@
     font-size:60px;
 }
 .content{
-    height: 500px;
+    height: 600px;
 }
 .contenttitle {
     font-family: 'Segoe UI';
-    margin-top: 20px;
+    margin-top: 60px;
     font-size:40px;
     border-bottom: 2px solid #FFEBAD;
 }
 .contentitem{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 50px 75px;
+    margin: 50px 75px;
     float: left;
 }
-.contentform{
-    padding-top: 100px;
+.formtitle{
+    font-size: 30px;
+    border-bottom: 2px solid #FFEBAD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formdesc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size:20px;
+    margin-top: 20px;
+}
+.contactform input{
+    background-color: #FFEBAD;
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 10px;
+    border: 1px solid  #606c38;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactform textarea{
+    background-color: #FFEBAD;
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid  #606c38;
+}
+.contactsubmit{
+    background-color: #FFEBAD;
+    color: black;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid  #606c38;
 }
 
 .footer{
