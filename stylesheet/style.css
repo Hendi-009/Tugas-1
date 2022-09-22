@@ -26,7 +26,7 @@
     list-style: none;
     float: right;
     padding: 33px 20px;
-    font-family: 'Poppins';
+    ffont-family: 'Segoe UI';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -37,21 +37,41 @@
 
 .main{
     background-color: #606c38;
-    height: 200px;
-    padding: 100px 75px;
+    height: 1000px;
+    padding: 80px 70px;
 }
 .contentmain h1{
+    font-family: 'Calma Display';
     color: #FFEBAD;
     font-size:100px;
 }
 .contentmain h2{
+    font-family: 'Segoe UI';
     color: #FFEBAD;
     font-size:60px;
+}
+.content{
+    height: 500px;
+}
+.contenttitle {
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+    font-size:40px;
+    border-bottom: 2px solid #FFEBAD;
+}
+.contentitem{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px 75px;
+    float: left;
+}
+.contentform{
+    padding-top: 100px;
 }
 
 .footer{
     background-color: #fefae0;
-    height: 80px;
+    height: 100px;
     padding: 30px;
     color: black;
 }
@@ -60,7 +80,7 @@
     float: left;
 }
 .infofooter h2{
-    font-family: 'sans-serif';
+    font-family: 'Segoe UI';
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
@@ -68,5 +88,5 @@
 .infofooter ul{
     float: right;
     list-style: none;
-    font-family: 'sans-serif';
+    font-family: sans-serif;
 }
